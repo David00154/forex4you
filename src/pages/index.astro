@@ -1,5 +1,4 @@
 ---
-import Header from "../components/Header";
 import Layout from "../layouts/Layout.astro";
 import Footer from "../components/sections/Footer.astro";
 import Cta from "../components/sections/Cta.astro";
@@ -16,7 +15,6 @@ import AboutCompanySection from "../components/sections/AboutCompanySection.astr
 ---
 
 <Layout title="Forex4You">
-  <Header pathname={Astro.url.pathname} client:load />
   <main class="m-0 min-w-0 box-border">
     <HeroSection />
     <PopularCryptoSection client:visible />
