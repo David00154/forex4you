@@ -1,0 +1,35 @@
+---
+import Header from "../components/Header";
+import Layout from "../layouts/Layout.astro";
+import Footer from "../components/sections/Footer.astro";
+import Cta from "../components/sections/Cta.astro";
+import NeedHelpSection from "../components/sections/NeedHelpSection.astro";
+import PortfolioSection from "../components/sections/PortfolioSection.astro";
+import TrustSection from "../components/sections/TrustSection.astro";
+import ExploreSection from "../components/sections/ExploreSection.astro";
+import EarnDailySection from "../components/sections/EarnDailySection";
+import BuildPortfolioSection from "../components/sections/BuildPortfolioSection.astro";
+import PopularCryptoSection from "../components/sections/PopularCryptoSection";
+import HeroSection from "../components/sections/HeroSection.astro";
+import FAQSection from "../components/sections/FAQsSection";
+import AboutCompanySection from "../components/sections/AboutCompanySection.astro";
+---
+
+<Layout title="Forex4You">
+  <Header pathname={Astro.url.pathname} client:load />
+  <main class="m-0 min-w-0 box-border">
+    <HeroSection />
+    <PopularCryptoSection client:visible />
+    <!-- <AboutCompanySection /> -->
+    <BuildPortfolioSection />
+    <EarnDailySection client:visible />
+    <ExploreSection />
+    <TrustSection />
+    <PortfolioSection />
+    <NeedHelpSection />
+    <FAQSection client:only />
+
+    <Cta />
+  </main>
+  <Footer />
+</Layout>
