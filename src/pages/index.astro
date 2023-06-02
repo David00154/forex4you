@@ -10,22 +10,24 @@ import EarnDailySection from "../components/sections/EarnDailySection";
 import BuildPortfolioSection from "../components/sections/BuildPortfolioSection.astro";
 import PopularCryptoSection from "../components/sections/PopularCryptoSection";
 import HeroSection from "../components/sections/HeroSection.astro";
-import FAQSection from "../components/sections/FAQsSection";
+import FAQSection from "../components/sections/FAQsSection.astro";
 import AboutCompanySection from "../components/sections/AboutCompanySection.astro";
+import ServicesSection from "../components/sections/ServicesSection.astro";
 ---
 
 <Layout>
-  <main class="m-0 min-w-0 box-border">
+  <main class="">
     <HeroSection />
     <PopularCryptoSection client:visible />
-    <!-- <AboutCompanySection /> -->
+    <AboutCompanySection />
+    <!-- <ServicesSection /> -->
     <BuildPortfolioSection />
     <EarnDailySection client:visible />
     <ExploreSection />
     <TrustSection />
     <PortfolioSection />
     <NeedHelpSection />
-    <FAQSection client:only />
+    <FAQSection showHeader={true} />
 
     <Cta />
   </main>

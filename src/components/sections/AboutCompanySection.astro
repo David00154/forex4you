@@ -39,9 +39,9 @@ const aboutImg3 = "/images/about-4-dot-1.png";
           <div class="wrapper">
             <div class="description">
               <p>
-                TimeLine-Investment is the most trustworthy platform. We are now
-                a fully registered Money Service Business (MSB) with the
-                Financial Crimes Enforcement Network Department.
+                Forex4You is the most trustworthy platform. We are now a fully
+                registered Money Service Business (MSB) with the Financial
+                Crimes Enforcement Network Department.
               </p>
             </div>
           </div>
@@ -121,23 +121,23 @@ const aboutImg3 = "/images/about-4-dot-1.png";
                   <h3>25<span>+</span></h3>
                   <p>Years Experience</p>
                 </div>
-                <div class="floated">TimeLine-Investment</div>
+                <div class="floated">Forex4You</div>
               </div>
             </div>
           </div>
         </div>
-        <div class="item-3">
-          <div class="item-container">
-            <div class="floating-img-box">
-              <img
-                class="floating-img"
-                decoding="async"
-                src={aboutImg3}
-                style="animation-name: animate-none;animation-duration: 5s;"
-                alt=""
-              />
-            </div>
-          </div>
+      </div>
+    </div>
+    <div class="item-3">
+      <div class="item-container">
+        <div class="floating-img-box">
+          <img
+            class="floating-img"
+            decoding="async"
+            src={aboutImg3}
+            style="animation-name: animate-none;animation-duration: 5s;"
+            alt=""
+          />
         </div>
       </div>
     </div>
@@ -146,6 +146,9 @@ const aboutImg3 = "/images/about-4-dot-1.png";
 </section>
 
 <style>
+  .about-company-section {
+    background-color: theme(colors.dark.primary);
+  }
   .about-company-section .container-fluid {
     display: flex;
     right: auto;
@@ -157,7 +160,7 @@ const aboutImg3 = "/images/about-4-dot-1.png";
     content: "";
     width: 61px;
     height: 61px;
-    background-color: #f2ede9;
+    background-color: #15171a;
     position: absolute;
     top: 0;
     left: 0;
@@ -227,7 +230,7 @@ const aboutImg3 = "/images/about-4-dot-1.png";
     line-height: 1.2em;
     position: relative;
     bottom: -10px;
-    color: theme(colors.dark.secondary);
+    color: theme(colors.text.light);
   }
   /*  */
   .about-section-column .section-wrap .items-2 .wrapper {
@@ -275,7 +278,7 @@ const aboutImg3 = "/images/about-4-dot-1.png";
     margin: 0;
     font-size: 20px;
     line-height: 1.5em;
-    color: theme(colors.dark.tertiary);
+    color: theme(colors.text.light);
   }
 
   /*  */
@@ -353,7 +356,7 @@ const aboutImg3 = "/images/about-4-dot-1.png";
     font-size: 18px;
     font-weight: 700;
     line-height: 1.66667em;
-    color: theme(colors.dark.tertiary);
+    color: theme(colors.text.light);
   }
   .about-section-column
     .section-wrap
@@ -382,17 +385,17 @@ const aboutImg3 = "/images/about-4-dot-1.png";
     -webkit-appearance: none;
     border: none;
     outline: none !important;
-    color: #fff;
-    font-size: 15px;
+    font-size: 16px;
     padding: 23px 40px;
     text-align: center;
     transition: 0.5s;
     line-height: 1.1;
     background-color: theme(colors.custom.yellow);
-    color: #fff;
+    color: black;
   }
   .about-section-column .section-wrap .items-5 .wrapper .btn-container a:hover {
     background-color: theme(colors.dark.tertiary);
+    color: theme(colors.text.light);
   }
   /*  */
   .about-section-column .section-wrap .items-6 {
@@ -444,18 +447,23 @@ const aboutImg3 = "/images/about-4-dot-1.png";
   }
   .right-wrap .item-1 {
     background-image: none;
-    background-color: rgb(242, 237, 233);
+    /* background-color: rgb(242, 237, 233); */
+    background-color: theme(colors.dark.primary);
     background-position: 0% 0%;
     background-repeat: repeat;
     background-size: auto;
     margin: 0 0 0 325px;
-    margin-right: -800px !important;
     right: 0;
     position: absolute;
     height: 100%;
     top: 0;
     left: 0;
     width: auto;
+  }
+  @media (min-width: 768px) {
+    .right-wrap .item-1 {
+      margin-right: -800px !important;
+    }
   }
   .right-wrap .item-1::before {
     position: absolute;
@@ -528,7 +536,7 @@ const aboutImg3 = "/images/about-4-dot-1.png";
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: #c1180b;
+    background-color: theme(colors.custom.yellow);
     width: 38px;
     height: 41px;
     clip-path: polygon(0 0, 0 100%, 100% 0);
@@ -542,7 +550,7 @@ const aboutImg3 = "/images/about-4-dot-1.png";
     h3 {
     font-size: 45px;
     font-weight: 700;
-    color: #fff;
+    color: theme(colors.dark.tertiary);
     margin: 0;
     margin-right: 15px;
   }
@@ -566,7 +574,7 @@ const aboutImg3 = "/images/about-4-dot-1.png";
     .caption
     p {
     font-size: 16px;
-    color: #fff;
+    color: theme(colors.dark.tertiary);
     line-height: 1.25em;
     font-weight: 500;
     margin: 0;

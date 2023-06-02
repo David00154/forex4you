@@ -3,32 +3,34 @@ import { Fragment, useEffect, useRef, useState } from "react";
 const ScrollToTop = () => {
   const scrollToTopBtn = useRef(null!);
   useEffect(() => {
-    document.addEventListener(
-      "scroll",
-      function () {
-        console.log("og");
-        if (document.body.scrollTop > 100) {
-          (scrollToTopBtn.current as unknown as HTMLElement).classList.add(
-            "active"
-          );
-        } else {
-          (scrollToTopBtn.current as unknown as HTMLElement).classList.remove(
-            "active"
-          );
-        }
-      },
-      true
-    );
+    // document.addEventListener(
+    //   "scroll",
+    //   function () {
+    //     if (document.body.scrollTop > 100) {
+    //       console.log("on");
+    //       (scrollToTopBtn.current as unknown as HTMLElement).classList.add(
+    //         "active"
+    //       );
+    //     } else {
+    //       console.log("off");
+    //       (scrollToTopBtn.current as unknown as HTMLElement).classList.remove(
+    //         "active"
+    //       );
+    //     }
+    //   },
+    //   true
+    // );
   }, []);
   function scrollTop() {
-    document.body.scrollTo({ behavior: "smooth", top: 0 });
+    // document.body.scrollTo({ behavior: "smooth", top: 0 });
+    window.scrollTo({ behavior: "smooth", top: 0 });
   }
   return (
     <Fragment>
       <button
         onClick={scrollTop}
         ref={scrollToTopBtn}
-        className="scroll-to-top"
+        className="scroll-to-top active"
       >
         <i>
           <svg
