@@ -15,7 +15,7 @@ const PopularCryptoSection = () => {
               Popular cryptocurrencies
             </div>
           </div>
-          <a className="css-buqk49" href="#">
+          <a className="css-buqk49" href="https://app.forex4you.space">
             <div data-bn-type="text" className="css-1c82c04">
               View more markets
             </div>
@@ -86,7 +86,11 @@ const PopularCryptoSection = () => {
             </div>
           </div>
         </div>
-        <a id="top_crypto_table-1-BNB_USDT" className="css-1k26pp0" href="#">
+        <a
+          id="top_crypto_table-1-BNB_USDT"
+          className="css-1k26pp0"
+          href="https://app.forex4you.space"
+        >
           <div className="css-1mi1v6l">
             <div
               data-round="true"
@@ -142,7 +146,11 @@ const PopularCryptoSection = () => {
             </div>
           </div>
         </a>
-        <a id="top_crypto_table-2-BTC_USDT" className="css-1k26pp0" href="#">
+        <a
+          id="top_crypto_table-2-BTC_USDT"
+          className="css-1k26pp0"
+          href="https://app.forex4you.space"
+        >
           <div className="css-1mi1v6l">
             <div
               data-round="true"
@@ -198,7 +206,11 @@ const PopularCryptoSection = () => {
             </div>
           </div>
         </a>
-        <a id="top_crypto_table-3-ETH_USDT" className="css-1k26pp0" href="#">
+        <a
+          id="top_crypto_table-3-ETH_USDT"
+          className="css-1k26pp0"
+          href="https://app.forex4you.space"
+        >
           <div className="css-1mi1v6l">
             <div
               data-round="true"
@@ -254,7 +266,11 @@ const PopularCryptoSection = () => {
             </div>
           </div>
         </a>
-        <a id="top_crypto_table-4-GAL_USDT" className="css-1k26pp0" href="#">
+        <a
+          id="top_crypto_table-4-GAL_USDT"
+          className="css-1k26pp0"
+          href="https://app.forex4you.space"
+        >
           <div className="css-1mi1v6l">
             <div
               data-round="true"
@@ -310,7 +326,11 @@ const PopularCryptoSection = () => {
             </div>
           </div>
         </a>
-        <a id="top_crypto_table-5-GMT_USDT" className="css-1k26pp0" href="#">
+        <a
+          id="top_crypto_table-5-GMT_USDT"
+          className="css-1k26pp0"
+          href="https://app.forex4you.space"
+        >
           <div className="css-1mi1v6l">
             <div
               data-round="true"
@@ -370,7 +390,11 @@ const PopularCryptoSection = () => {
           <div data-bn-type="text" className="css-xhdd21">
             Sign up now to build your own portfolio for free!
           </div>
-          <a data-bn-type="button" className=" css-y69muh" href="#">
+          <a
+            data-bn-type="button"
+            className=" css-y69muh"
+            href="https://app.forex4you.space"
+          >
             Get Started
           </a>
         </div>

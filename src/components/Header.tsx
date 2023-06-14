@@ -93,7 +93,7 @@ const Header: FC<{ pathname: string }> = ({ pathname }) => {
             </svg>
           </a> */}
           <a
-            href="#"
+            href="https://app.forex4you.space"
             id=""
             className="text-[15px] text-black bg-custom-yellow px-[25px] py-[17px] md:inline-block hidden hover:bg-white hover:text-custom-dark-primary custom-transition ml-[35px]"
           >

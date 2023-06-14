@@ -13,7 +13,11 @@ const EarnDailySection = () => {
         <div className="css-f0jmrw">
           <div className="css-18mg9wb">
             <div className="css-1ivl1ub">
-              <a data-bn-type="link" href="#" className="css-m2io66">
+              <a
+                data-bn-type="link"
+                href="https://app.forex4you.space"
+                className="css-m2io66"
+              >
                 <div className="css-yyvsvt">
                   <div
                     data-src="/images/2b5c7d80-7bcd-4cfb-8bd9-d1760a752afc.png"
@@ -58,7 +62,11 @@ const EarnDailySection = () => {
               </a>
             </div>
             <div className="css-1ivl1ub">
-              <a data-bn-type="link" href="#" className="css-m2io66">
+              <a
+                data-bn-type="link"
+                href="https://app.forex4you.space"
+                className="css-m2io66"
+              >
                 <div className="css-yyvsvt">
                   <div
                     data-src="/images/87496d50-2408-43e1-ad4c-78b47b448a6a.png"
@@ -103,7 +111,11 @@ const EarnDailySection = () => {
               </a>
             </div>
             <div className="css-1ivl1ub">
-              <a data-bn-type="link" href="#" className="css-m2io66">
+              <a
+                data-bn-type="link"
+                href="https://app.forex4you.space"
+                className="css-m2io66"
+              >
                 <div className="css-yyvsvt">
                   <div
                     data-src="/images/94863af2-c980-42cf-a139-7b9f462a36c2.png"
@@ -148,7 +160,11 @@ const EarnDailySection = () => {
               </a>
             </div>
             <div className="css-1ivl1ub">
-              <a data-bn-type="link" href="#" className="css-m2io66">
+              <a
+                data-bn-type="link"
+                href="https://app.forex4you.space"
+                className="css-m2io66"
+              >
                 <div className="css-yyvsvt">
                   <div
                     data-src="/images/3222a10d-5618-4100-8476-ee7fe0a6fb12.png"
@@ -193,7 +209,11 @@ const EarnDailySection = () => {
               </a>
             </div>
             <div className="css-1ivl1ub">
-              <a data-bn-type="link" href="#" className="css-m2io66">
+              <a
+                data-bn-type="link"
+                href="https://app.forex4you.space"
+                className="css-m2io66"
+              >
                 <div className="css-yyvsvt">
                   <div
                     data-src="/images/3a8c9fe6-2a76-4ace-aa07-415d994de6f0.png"
@@ -238,7 +258,11 @@ const EarnDailySection = () => {
               </a>
             </div>
             <div className="css-1ivl1ub">
-              <a data-bn-type="link" href="#" className="css-m2io66">
+              <a
+                data-bn-type="link"
+                href="https://app.forex4you.space"
+                className="css-m2io66"
+              >
                 <div className="css-yyvsvt">
                   <div
                     data-src="/images/8e0060bf-9aed-4003-aba3-3d2367c18215.png"
@@ -283,7 +307,11 @@ const EarnDailySection = () => {
               </a>
             </div>
             <div className="css-1ivl1ub">
-              <a data-bn-type="link" href="#" className="css-m2io66">
+              <a
+                data-bn-type="link"
+                href="https://app.forex4you.space"
+                className="css-m2io66"
+              >
                 <div className="css-yyvsvt">
                   <div
                     data-src="/images/3bc4f3c3-c142-4379-9ebd-a72f332776bc.png"
@@ -328,7 +356,11 @@ const EarnDailySection = () => {
               </a>
             </div>
             <div className="css-1ivl1ub">
-              <a data-bn-type="link" href="#" className="css-m2io66">
+              <a
+                data-bn-type="link"
+                href="https://app.forex4you.space"
+                className="css-m2io66"
+              >
                 <div className="css-yyvsvt">
                   <div
                     data-src="/images/028e07ac-4117-4ddf-b9fd-90d8bd1c9406.png"
@@ -373,7 +405,11 @@ const EarnDailySection = () => {
               </a>
             </div>
             <div className="css-1ivl1ub">
-              <a data-bn-type="link" href="#" className="css-m2io66">
+              <a
+                data-bn-type="link"
+                href="https://app.forex4you.space"
+                className="css-m2io66"
+              >
                 <div className="css-yyvsvt">
                   <div
                     data-src="/images/b2f0c70f-4fb2-4472-9fe7-480ad1592421.png"
@@ -418,7 +454,11 @@ const EarnDailySection = () => {
               </a>
             </div>
             <div className="css-1ivl1ub">
-              <a data-bn-type="link" href="#" className="css-m2io66">
+              <a
+                data-bn-type="link"
+                href="https://app.forex4you.space"
+                className="css-m2io66"
+              >
                 <div className="css-yyvsvt">
                   <div
                     data-src="/images/c9430233-f9ce-4a5b-b0e8-7d1217db7568.png"
@@ -464,7 +504,11 @@ const EarnDailySection = () => {
             </div>
           </div>
         </div>
-        <a data-bn-type="button" className=" css-13e7zge" href="#">
+        <a
+          data-bn-type="button"
+          className=" css-13e7zge"
+          href="https://app.forex4you.space"
+        >
           Start to Earn
         </a>
       </div>

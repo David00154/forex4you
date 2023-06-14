@@ -1,5 +1,6 @@
 ---
 import Header from "../components/Header";
+import Popup from "../components/Popup.astro";
 import ScrollToTop from "../components/ScrollToTop";
 import Footer from "../components/sections/Footer.astro";
 
@@ -22,10 +23,6 @@ const { title } = Astro.props;
 			defer
 			src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
 		></script>
-		<link
-			href="https://unpkg.com/aos@2.3.1/dist/aos.css"
-			rel="stylesheet"
-		/>
 
 		<title>{title ? `${title} | Forex4You` : "Forex4You"}</title>
 		<style>
@@ -52,6 +49,7 @@ const { title } = Astro.props;
 		<slot />
 		<Footer />
 		<ScrollToTop client:only />
+		<Popup />
 		<!-- </div>
 	  </div> -->
 		<script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
