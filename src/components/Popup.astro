@@ -1,7 +1,4 @@
-<div class="pop-up px-3 py-2" id="pop-up">
-    <div class="close-container">
-        <span class="material-symbols-outlined"> close</span>
-    </div>
+<div class="pop-up px-3 py-5" id="pop-up">
     <p class="pop-text">
         Someone from <span id="pop-up-country"></span> just earned
         <br />
@@ -108,7 +105,10 @@
     let balance = document.querySelector("#pop-up-balance");
     let popUp = document.querySelector(".pop-up");
 
-    window.addEventListener("load", function () {
+    window.addEventListener("DOMContentLoaded", function () {
+        country!.textContent = faker.address.country();
+        balance!.textContent =
+            "$" + faker.finance.amount().split(".").join(",") + 0;
         // const popUpLoad = function () {
         //     setTimeout(() => {
         //         country!.textContent = faker.address.country();
