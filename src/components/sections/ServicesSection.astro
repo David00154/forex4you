@@ -32,7 +32,11 @@ const services = [
           <div class="row">
             {
               services.map((service) => (
-                <div class="item-column col-lg-4 col-md-12">
+                <div
+                  class="item-column col-lg-4 col-md-12"
+                  data-aos="flip-left"
+                  data-aos-easing="linear"
+                >
                   <div class="service-card">
                     <div class="service-card-icon">
                       <i class={`icon ${service.icon}`} />

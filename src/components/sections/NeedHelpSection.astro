@@ -23,7 +23,11 @@ const items = [
 ---
 
 <div class="lg:py-[80px] md:py-[64px] bg-[rgb(24,_26,_32)] py-[40px]">
-  <div class="md:px-[24px] mx-auto max-w-[1248px] px-[16px]">
+  <div
+    class="md:px-[24px] mx-auto max-w-[1248px] px-[16px]"
+    data-aos="flip-left"
+    data-aos-easing="linear"
+  >
     <!-- Heading -->
     <div class="lg:mb-[40px] md:mb-[32px] mb-[16px]">
       <h1
@@ -40,7 +44,7 @@ const items = [
             <div class="lg:flex-row md:flex-col flex flex-col min-w-0 m-0">
               <div
                 class={`svg-item ${item.svg_class} md:w-[64px] md:h-[64px] w-[48px] h-[48px] flex-none relative overflow-hidden`}
-              ></div>
+              />
               <div class="lg:ml-[24px] lg:mt-0 md:ml-0 md:mt-[24px] ml-0 mt-[16px]">
                 <div class="m-0 min-w-0">
                   <h4 class="lg:font-medium lg:text-[20px] lg:leading-[20px] md:font-semibold md:text-[24px] md:leading-[32px] text-[rgb(234,_236,_239)] leading-[28px] text-[20px] font-medium min-w-0 m-0">
@@ -61,7 +65,8 @@ const items = [
 
 <style
   define:vars={{
-    csSvg: `url("${cs_svg}")`, //
+    csSvg: `url("${cs_svg}")`,
+    //
     communitySvg: `url("${community_svg}")`,
     blogSvg: `url("${blog_svg}")`,
   }}
