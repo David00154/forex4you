@@ -54,8 +54,13 @@ const { title } = Astro.props;
 		<Footer />
 		<!-- <ScrollToTop client:only /> -->
 		<Popup />
-		<!-- </div>
-	  </div> -->
+		   
+    <!-- Whatsapp Start -->
+    <a
+    href="https://wa.me/447586359227" class="wpp-float-btn" target="_blank">
+    <iconify-icon icon="mdi:whatsapp" style="margin-top: 16px;"></iconify-icon>
+    </a>
+    <!-- Whatsapp End -->
 		<script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	</body>
 </html>
@@ -146,8 +151,39 @@ const { title } = Astro.props;
 		margin-top: 0px;
 	}
   }
-</style>
+  .wpp-float-btn{
+	position:fixed;
+  /* display: block; */
+	width:60px;
+	height:60px;
+  top: auto;
+	bottom:119px;
+  right: 27px;
+  left: auto;
+  /* left:59%; */
+	/* right:0px; */
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
 
+@media (max-width: 450px) {
+  .wpp-float-btn {
+    right: 15px;
+    bottom: 109px;
+  }
+}
+
+.wpp-float-btn .wpp-float-icon{
+	margin-top:16px;
+}
+
+</style>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 <script>
 	window.addEventListener("DOMContentLoaded", function () {
 		//@ts-ignore
